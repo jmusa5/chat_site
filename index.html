@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Chat Your Face Off!</title>
+  <link rel="stylesheet" type="text/css" src="styles/main.css">
+</head>
+
+<body>
+
+  <header>
+
+    <h1>Welcome! Now... Starting Chatting Your Face Off!</h1>
+
+  </header>
+
+
+  <div class="main-content">
+
+    <div class="login-container">
+      <div class="login-form">
+        <div class="login-create">Create your chat username!</div>
+        <input class="user-name-field" minlength="1" autofocus>
+        <button class="login-btn" type="submit">Get Your Chat On!</button>
+      </div>
+      <!-- closing "login-form" -->
+    </div>
+    <!-- closing "login-container" -->
+
+
+    <div class="chat-room-container">
+      <div class="message-container">
+        <div class="message-line-wrapper">
+          <ul class="message-rows">
+            <li class="user-name">USER</li>
+            <li class="message-sent">"hello world"</li>
+            <li class="time-stamp">30 mins agi</li>
+          </ul>
+          <!-- closing "message-rows" -->
+        </div>
+        <!-- closing "message-line-wrapper" -->
+      </div>
+      <!-- closing "message-container" -->
+    </div>
+    <!-- closing "chat-room-container" -->
+
+    <div class="page-bottom-container">
+      <div class="display">"User-name" "Is Chatting"</div>
+
+      <!-- within this div, we will differentiate our chatroom from that of the example by including emoticons, loaction (where chattgin from, potentially -->
+      <!-- large button with hover effects, etc..  -->
+
+      <input class="chat-text">
+      <button class="send-text" type="submit">Send</button>
+    </div>
+    <!-- page-bottom-container -->
+
+  </div>
+  <!-- closing "main-content" -->
+
+  <footer>
+    <h1>some shit</h1>
+  </footer>
+
+
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/underscore/underscore.js"></script>
+
+  <script type="text/template" data-template-name="chat">
+  </script>
+
+  <script src="scripts/main.js" type="text/javascript"></script>
+
+</body>
+
+</html>
