@@ -1,0 +1,192 @@
+/*******************
+     IMPORTS
+*******************/
+@import 'bourbon/bourbon';
+$visual-grid: false;
+@import 'neat/neat';
+
+/**********************
+    COLORS & Themes
+***********************/
+
+/******************
+      Brazil
+*******************/
+$northtexasgreen: #009B3A;
+$goldenyellow: #FEDF00;
+$catalinablue: #002776;
+
+/*******************
+      Alladin
+********************/
+
+$color1: #47e5bc;
+$color2: #247ba0;
+$color3: #b2dbbf;
+$color4: #f3ffbd;
+$color5: #ff1654;
+
+/*******************
+  Neon Ninja Turtle
+********************/
+
+$color6: #99ff00;
+$color7: #000000;
+$color8: #000000;
+$color9: #444545;
+$color10: #c3dbc5;
+
+/*******************
+       Robin
+********************/
+
+$color11: #ccc7b9;
+$color12: #eaf9d9;
+$color13: #ed474a;
+$color14: #e2d4ba;
+$color15: #cdd6d0;
+
+/*******************
+     Blackbeard
+********************/
+
+$color16: #1c0f13;
+$color17: #6e7e85;
+$color18: #b7cece;
+$color19: #bbbac6;
+$color20: #e2e2e2;
+
+/*******************
+I Was Born In The Dark
+********************/
+$color21: #af9b46;
+$color22: #e1b07e;
+$color23: #1f1300;
+$color24: #dfd6a7;
+$color25: #0f1a20;
+
+
+/*******************
+       FONTS
+*******************/
+
+$primary-font: 'Oswald', sans-serif;
+$secondary-font: 'Cedarville Cursive', cursive;
+
+/*********************************************************
+                *****  LAYOUT  ******
+*********************************************************/
+
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+
+body {
+  margin: 0 auto;
+  background-color: $color1;
+  font-family: $primary-font;
+  color: $color2;
+
+}
+h1 p {
+  font-family: $secondary-font;
+  font-size: 4rem;
+  margin-top: 0px;
+}
+
+header {
+  background-color: $color5;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  background-color: $color4;
+}
+
+input {
+  font-family: $primary-font;
+  border-radius: 10px;
+  background: none;
+  border: 0;
+  outline: none;
+  color: $color2;
+}
+
+.main-content {
+  padding-top: 40px;
+  margin: 0 auto;
+  width: 1000px;
+  color: $color4
+}
+
+.chat-text {
+  width: 500px;
+  color: $color4;
+  border: solid 3px $color2;
+  height: 90px;
+  font-size: 20px;
+  text-wrap: suppress;
+
+}
+
+.user-name {
+  width: 300px;
+  height: 50px;
+  font-size: 17px;
+  background: none;
+  border: 0;
+  outline: none;
+  background-color: $color3;
+  border: solid 3px $color2;
+  margin-bottom: 20px;
+}
+
+ul, li {
+  list-style: none;
+  line-height: 1.5;
+}
+
+.display {
+  margin-left: 30%;
+}
+.login-form {
+  width: 500px;
+}
+button {
+  background-color: $color2;
+  color: $color3;
+  font-size: 1em;
+  font-family: $primary-font;
+  border: 0;
+  outline: none;
+  border: 3px solid $color3;
+}
+
+.chat-room-container {
+  border: 4px solid #eee;
+  height: 400px;
+  width: 600px;
+  background-color: $color3;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.login-create {
+  padding-bottom: 10px;
+
+}
+
+footer{
+  height: 200px;
+  width: 400px;
+}
+
+footer h3 {
+position: relative;
+margin: 0 auto;
+top: 150px;
+left: 80px;
+}

@@ -1,3 +1,137 @@
+/*******************
+     IMPORTS
+*******************/
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
 
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit; }
+
+/**********************
+    COLORS & Themes
+***********************/
+/******************
+      Brazil
+*******************/
+/*******************
+      Alladin
+********************/
+/*******************
+  Neon Ninja Turtle
+********************/
+/*******************
+       Robin
+********************/
+/*******************
+     Blackbeard
+********************/
+/*******************
+I Was Born In The Dark
+********************/
+/*******************
+       FONTS
+*******************/
+/*********************************************************
+                *****  LAYOUT  ******
+*********************************************************/
+* {
+  box-sizing: border-box;
+  margin: 0 auto; }
+
+body {
+  margin: 0 auto;
+  background-color: #47e5bc;
+  font-family: "Oswald", sans-serif;
+  color: #247ba0; }
+
+h1 p {
+  font-family: "Cedarville Cursive", cursive;
+  font-size: 4rem;
+  margin-top: 0px; }
+
+header {
+  background-color: #ff1654;
+  margin: 0 auto; }
+
+h1 {
+  text-align: center;
+  background-color: #f3ffbd; }
+
+input {
+  font-family: "Oswald", sans-serif;
+  border-radius: 10px;
+  background: none;
+  border: 0;
+  outline: none;
+  color: #247ba0; }
+
+.main-content {
+  padding-top: 40px;
+  margin: 0 auto;
+  width: 1000px;
+  color: #f3ffbd; }
+
+.chat-text {
+  width: 500px;
+  color: #f3ffbd;
+  border: solid 3px #247ba0;
+  height: 90px;
+  font-size: 20px;
+  text-wrap: suppress; }
+
+.user-name {
+  width: 300px;
+  height: 50px;
+  font-size: 17px;
+  background: none;
+  border: 0;
+  outline: none;
+  background-color: #b2dbbf;
+  border: solid 3px #247ba0;
+  margin-bottom: 20px; }
+
+ul, li {
+  list-style: none;
+  line-height: 1.5; }
+
+.display {
+  margin-left: 30%; }
+
+.login-form {
+  width: 500px; }
+
+button {
+  background-color: #247ba0;
+  color: #b2dbbf;
+  font-size: 1em;
+  font-family: "Oswald", sans-serif;
+  border: 0;
+  outline: none;
+  border: 3px solid #b2dbbf; }
+
+.chat-room-container {
+  border: 4px solid #eee;
+  height: 400px;
+  width: 600px;
+  background-color: #b2dbbf;
+  margin: 0 auto;
+  border-radius: 10px; }
+
+.login-create {
+  padding-bottom: 10px; }
+
+footer {
+  height: 200px;
+  width: 400px; }
+
+footer h3 {
+  position: relative;
+  margin: 0 auto;
+  top: 150px;
+  left: 80px; }
 
 /*# sourceMappingURL=main.css.map */
